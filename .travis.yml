@@ -1,0 +1,9 @@
+language: node_js
+
+before_install:
+	ls -l
+	echo "Hello world"
+
+install:
+	ls -l 
+	echo "In the Install section of the code"	
