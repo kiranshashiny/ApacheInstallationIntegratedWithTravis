@@ -6,4 +6,13 @@ before_install:
 
 install:
 	ls -l 
-	echo "In the Install section of the code"	
+	echo "In the Install section of the code"
+
+script:	
+	echo "In the script part of the code"
+	ls -l
+
+before_script:
+	echo "In the before script of the code"	
+	ls -pl	
+	
