@@ -5,17 +5,17 @@ sudo : enabled
 
 before_install:
 	ls -l
-	echo "Hello world"
+	echo "Hello world shashi"
 
 install:
 	ls -l 
-	echo "In the Install section of the code"
+	echo "In the Install section of the code shashi"
 
 script:	
-	echo "In the script part of the code"
+	echo "In the script part of the codeshashi "
 	ls -l
 
 before_script:
-	echo "In the before script of the code"	
+	echo "In the before script of the code shashi"	
 	ls -pl	
 	
