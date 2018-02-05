@@ -1,4 +1,11 @@
-language: java
+language: ruby
+rvm:
+ - 2.2
+ - jruby
+ - rbx-3
+
+sudo : enabled
+
 
 before_install:
 	ls -l
