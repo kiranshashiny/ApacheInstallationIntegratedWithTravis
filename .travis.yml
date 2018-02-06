@@ -1,5 +1,6 @@
-sudo: enabled
+language:python
 
+sudo: enabled
 
 before_install:
 	-echo "Hello world shashi in the before install"
