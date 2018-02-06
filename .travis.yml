@@ -1,5 +1,3 @@
-language:python
-
 sudo: enabled
 
 
@@ -17,6 +15,8 @@ install:
 script:	
 	echo "In the script part of the codeshashi "
 	ls -l
+	- bundle exec rake build
+	- bundle exec rake builddoc
 
 before_script:
 	echo "In the before script of the code shashi"	
