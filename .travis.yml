@@ -1,10 +1,12 @@
-language: python
+language:python
 
 sudo: enabled
 
 
 before_install:
-	echo "Hello world shashi in the before install"
+	-echo "Hello world shashi in the before install"
+  	-sudo apt-get -qq update
+
 	ls -l
 
 install:
