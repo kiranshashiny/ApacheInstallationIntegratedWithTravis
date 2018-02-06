@@ -6,12 +6,8 @@ before_install:
 	-echo "Hello world shashi in the before install"
   	-sudo apt-get -qq update
 
-	ls -l
-
 install:
-	echo "Hello world shashi in the install"
-	ls -l 
-	echo "In the Install section of the code shashi"
+	- echo "Hello world shashi in the install"
 
 script:	
 	echo "In the script part of the codeshashi "
@@ -21,5 +17,4 @@ script:
 
 before_script:
 	echo "In the before script of the code shashi"	
-	ls -pl	
 	
