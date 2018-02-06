@@ -12,6 +12,7 @@ install: # command to install dependencies
   - ls -l
   - tar xvf httpd-2.4.29.tar.gz
   - sudo apt-get install apache2
+  - sudo apachectl start
 
 # command to run tests
 script: python test.py
