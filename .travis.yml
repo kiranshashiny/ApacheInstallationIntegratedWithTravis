@@ -16,10 +16,5 @@ install: # command to install dependencies
   - sudo apt-get install apache2
   - sudo apachectl start 
 
-# command to run tests
-#script: 
-#  Check what's wrong with this code.
-#  - python test.py
-
 
 sudo: false
