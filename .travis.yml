@@ -1,6 +1,5 @@
 language: python
 
-group: deprecated-2017Q4
 
 python:
   - "2.7"
@@ -17,4 +16,4 @@ install: # command to install dependencies
   - sudo apachectl start 
 
 
-sudo: false
+sudo: enabled
