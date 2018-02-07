@@ -17,7 +17,7 @@ install: # command to install dependencies
   - sudo apachectl start 
 
 # command to run tests
-script: 
+#script: 
 #  Check what's wrong with this code.
 #  - python test.py
 
